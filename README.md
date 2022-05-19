@@ -8,4 +8,4 @@ Frontend also dockerized with node:alpine to work with an older version of React
 All changes made to this code were mande using separate Dockerfiles for each of the modules, and built with a Docker-compose.yml file.
 
 # NOTE:
-As this a development application, and its purpose is for testing environments, it works only on localhost, each container is ponted to work on a local environment via .env file, also included.
+As this a test application, and its purpose is for testing environment and practice, it works only on localhost, each container is ponted to work on a local environment via .env file, also included.
