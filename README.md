@@ -9,3 +9,19 @@ All changes made to this code were mande using separate Dockerfiles for each of 
 
 # NOTE:
 As this a test application, and its purpose is for testing environment and practice, it works only on localhost, each container is ponted to work on a local environment via .env file, also included.
+
+
+# Usage
+
+To Run this application, you need:
+
+Docker
+git
+
+1- Clone de repository.
+
+2- Run
+
+```bash
+docker-compose up
+```
