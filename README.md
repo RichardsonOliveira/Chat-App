@@ -16,6 +16,7 @@ As this a test application, and its purpose is for testing environment and pract
 To Run this application, you need:
 
 Docker
+
 git
 
 1- Clone de repository.
