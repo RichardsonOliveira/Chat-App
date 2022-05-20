@@ -1,7 +1,7 @@
 # Chat-App
 
 # Changes made
-Dockerized backend using golang:alpine. Container insctructions to open port :8080 and connect to Redis server on a separate container.
+Dockerized backend creating a Dockerfile for its components and building the application using golang:alpine. Container insctructions to open port :8080 and connect to Redis server on a separate container.
 
 Frontend also dockerized with node:alpine to work with an older version of React, as newer version do not suppor certain code elements.
 
