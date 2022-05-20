@@ -17,11 +17,20 @@ To Run this application, you need:
 
 Docker
 
-git
+For Windows:
 
-1- Clone de repository.
+https://docs.docker.com/desktop/windows/install/
 
-2- Run
+For Linux:
+
+https://docs.docker.com/desktop/linux/install/
+
+Git
+```bash
+sudo apt install git
+```
+
+To run the app:
 
 ```bash
 docker-compose up
