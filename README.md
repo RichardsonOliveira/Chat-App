@@ -17,7 +17,7 @@ To Run this application, you need:
 
 Docker
 
-For Windows:
+For Windows or WSL:
 
 https://docs.docker.com/desktop/windows/install/
 
