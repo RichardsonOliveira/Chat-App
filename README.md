@@ -11,7 +11,7 @@ All changes made to this code were mande using separate Dockerfiles for each of 
 As this a test application, and its purpose is for testing environment and practice, it works only on localhost, each container is ponted to work on a local environment via .env file, also included.
 
 
-# Usage
+# Requirements
 
 To Run this application, you need:
 
@@ -26,11 +26,14 @@ For Linux:
 https://docs.docker.com/desktop/linux/install/
 
 Git
+
 On your terminal, Install Git:
 
 ```bash
 $ sudo apt install git
 ```
+
+# Usage
 
 Clone the repository:
 ```bash
