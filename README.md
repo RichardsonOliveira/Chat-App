@@ -26,12 +26,30 @@ For Linux:
 https://docs.docker.com/desktop/linux/install/
 
 Git
+On your terminal, Install Git:
+
 ```bash
-sudo apt install git
+$ sudo apt install git
+```
+
+Clone the repository:
+```bash
+$ git clone https://github.com/RichardsonOliveira/Chat-App.git
+````
+
+Go to App Folder:
+```bash
+$ cd Chat-App
 ```
 
 To run the app:
 
 ```bash
-docker-compose up
+$ docker-compose up
 ```
+
+Check if all containers are up:
+```bash
+$ docker ps -a
+```
+If all containers are up, type localhost:3000 on your browser.
