@@ -14,6 +14,7 @@ services:
 
     build: ./backend/
     container_name: Docked-Backend
+    hostname: backend
     restart: always
     links:
       - redis
@@ -25,8 +26,11 @@ services:
     build: ./frontend/
     container_name: Docked-Frontend
     restart: always
+    hostname: frontend
     env_file:
       - .env
+    links:
+      - backend
     ports:
       - 3000:3000
 
